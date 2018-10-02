@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "324135530912",
+    "firebase_url": "https://passwordrecorder-b0778.firebaseio.com",
+    "project_id": "passwordrecorder-b0778",
+    "storage_bucket": "passwordrecorder-b0778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324135530912:android:21b2cbb82cb4038c",
+        "android_client_info": {
+          "package_name": "com.iinance.passwordrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324135530912-e6f67puvpvmu9i2jvegu1tse7b7q7ih3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iinance.passwordrecorder",
+            "certificate_hash": "e7c396584b06d323ffbf3d3e6fe385539ff3c827"
+          }
+        },
+        {
+          "client_id": "324135530912-ek4ajt6qp794eq83hfd67ph32042t6u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmKAcUmqP-TOCj85ieRu0jePkPdzurEWg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324135530912-ek4ajt6qp794eq83hfd67ph32042t6u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
