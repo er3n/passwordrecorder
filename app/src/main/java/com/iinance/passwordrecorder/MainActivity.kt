@@ -23,11 +23,6 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         val fireBaseuser = mAuth!!.currentUser
         println("Current firebase user is ${fireBaseuser?.email}")
-
-        signIn()
-        mAuth!!.currentUser!!.sendEmailVerification()
-
-
     }
 
     fun createUser() = mAuth!!.createUserWithEmailAndPassword("erenozturk@gmail.com", "123456")
