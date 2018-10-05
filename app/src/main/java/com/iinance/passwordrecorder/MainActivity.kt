@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     fun createUser() = mAuth!!.createUserWithEmailAndPassword("erenozturk@gmail.com", "123456")
             .addOnCompleteListener {
                 if(it.isSuccessful) {
+                    mAuth!!.currentUser!!.sendEmailVerification()
                     Log.d("MainActivity", "createUserWithEmail:success ${mAuth!!.currentUser}")
                 } else {
                     Log.w("MainActivity", "createUserWithEmail:failure", it.exception);
